@@ -14,6 +14,9 @@
 
 ## 展示与mars3d集成应用能力的示例代码
 
+示例代码来源：http://mars3d.cn/editor-vue.html?key=ex_7_0_0&id=control/inside/contextmenu
+
+
 ## 基于Cesium+Typescript+VUE的三维开发框架
 
 
