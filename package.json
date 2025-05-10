@@ -1,0 +1,25 @@
+{
+  "name": "xgis-cesium-mars3d-example",
+  "private": true,
+  "version": "0.0.1",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc -b && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "mars3d": "~3.8.2",
+    "mars3d-cesium": "^1.125.0",
+    "vue": "^3.5.13",
+    "xgis-cesium-mars3d": "^0.0.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.2.3",
+    "@vue/tsconfig": "^0.7.0",
+    "typescript": "~5.8.3",
+    "vite": "^6.3.5",
+    "vite-plugin-mars3d": "^4.2.2",
+    "vue-tsc": "^2.2.8"
+  }
+}
