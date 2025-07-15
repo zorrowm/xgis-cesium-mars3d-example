@@ -12,7 +12,7 @@
     "mars3d": "~3.8.2",
     "mars3d-cesium": "^1.125.0",
     "vue": "^3.5.13",
-    "xgis-cesium-mars3d": "^0.0.1"
+    "xgis-cesium-mars3d": "^0.0.2"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.2.4",

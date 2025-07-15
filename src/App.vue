@@ -8,8 +8,7 @@
 import { onMounted, ref } from 'vue';
 import * as mars3d from "mars3d"
 import { Cesium } from "mars3d"
-import { XViewer,LabelGeojsonLayer } from 'xgis-cesium-mars3d';
-// import "mars3d/dist/mars3d.css";
+import { XViewer, LabelGeojsonLayer } from 'xgis-cesium-mars3d';
 import "mars3d/mars3d.css";
 import "mars3d-cesium/Build/Cesium/Widgets/widgets.css";
 import 'xgis-cesium-mars3d/dist/index.css'
@@ -22,13 +21,9 @@ let map: mars3d.Map | null = null;
 
 //初始化地球
 function initCesiumViewer() {
-  //@ts-ignore
-  // if(!window.CESIUM_BASE_URL)
-  // {
-  //   //@ts-ignore
-  //   window.CESIUM_BASE_URL='./cesium/';
-  // }
   try {
+    Cesium.Camera.DEFAULT_VIEW_FACTOR = 0.4;
+    Cesium.Camera.DEFAULT_VIEW_RECTANGLE = Cesium.Rectangle.fromDegrees(102, 5, 115, 70);
     //https://cesium.com/learn/cesiumjs/ref-doc/Viewer.html#.ConstructorOptions
     const viewer = new XViewer('mars3dContainer', {
       animation: false, //是否创建动画小器件，左下角仪表
@@ -43,38 +38,22 @@ function initCesiumViewer() {
       navigationHelpButton: false, // 是否显示右上角的帮助按钮
       vrButton: false, // 是否显示双屏
       scene3DOnly: true, // 如果设置为true,则所有几何图形以3d模式绘制以节约gpu资源
-      fullscreenElement: document.body, //全屏时渲染的html元素
-      navigationInstructionsInitiallyVisible: false,
       contextOptions: {
         // cesium状态下允许canvas转图片convertToImage
         webgl: {
-          alpha: false,
-          depth: false,
-          stencil: true,
-          antialias: true,
-          premultipliedAlpha: true,
           preserveDrawingBuffer: true, //通过canvas.toDataURL()实现截图需要将该项设置为true
-          failIfMajorPerformanceCaveat: false
         },
-        //https://juejin.cn/post/7265042701065437220
-        // requestWebgl1: false,
       },
-      //https://cesium.com/learn/cesiumjs/ref-doc/Viewer.html?classFilter=Viewer
-      //https://cesium.com/blog/2018/01/24/cesium-scene-rendering-performance/
-      requestRenderMode: true,//优化性能，需要主动触发更新   scene.requestRender();
-      targetFrameRate: 60,
-      orderIndependentTranslucency: true,
+      requestRenderMode: false,//优化性能，需要主动触发更新   scene.requestRender();
+      targetFrameRate: 45,
+
       automaticallyTrackDataSourceClocks: false,
-      dataSources: undefined,
-      terrainShadows: Cesium.ShadowMode.DISABLED,
       //是正确的
       baseLayer: false,
-      // terrainProvider: await Cesium.createWorldTerrainAsync({
-      //      requestVertexNormals: true,
-      //      requestWaterMask: true,     // 动态水流
-      // }),
       //默认地形-无地形
-      terrainProvider: new Cesium.EllipsoidTerrainProvider(),
+      // terrainProvider: new Cesium.EllipsoidTerrainProvider(),
+      //允许动画
+      shouldAnimate: true,
     });
     viewer.clock.currentTime = Cesium.JulianDate.fromDate(new Date());
     return viewer;
@@ -86,15 +65,15 @@ function initCesiumViewer() {
   return undefined;
 }
 
-let graphicLayer // 矢量图层
-let graphic // 矢量数据
+let graphicLayer: any // 矢量图层
+let graphic: any// 矢量数据
 
 function rotatePoint_onChangeHandler(event) {
   console.log("绕此处环绕飞行,变化了角度", event)
 }
 
 // 在map地图上绑定右键菜单
- function bindMapDefault() {
+function bindMapDefault() {
   // const defaultContextmenuItems = map.getDefaultContextMenu() // 内置的默认右键菜单获取方法
   // map.bindContextMenu(defaultContextmenuItems) // 可以删减defaultContextmenuItems数组内值
 
@@ -104,7 +83,7 @@ function rotatePoint_onChangeHandler(event) {
 }
 
 // 在map地图上绑定右键菜单
- function bindMapDemo() {
+function bindMapDemo() {
   window._test_show = function (e) {
     return Cesium.defined(e.cartesian)
   }
@@ -184,12 +163,12 @@ window.flyToForContextmenuClick = function (event) {
 }
 
 // 解除Map已绑定的右键菜单
- function unBindMapDemo() {
+function unBindMapDemo() {
   map.unbindContextMenu()
 }
 
 // 在layer图层上绑定右键菜单
- function bindLayerDemo() {
+function bindLayerDemo() {
   graphicLayer.bindContextMenu([
     {
       text: "删除对象",
@@ -270,7 +249,7 @@ onMounted(() => {
   if (xviewer) {
     map = new mars3d.Map(xviewer as any);
     //默认单张图片，作为底图
-    xviewer.setBasicLayer('ARCGIS_IMG');
+    xviewer.setBasicLayer('GD_IMG');
     xviewer.Weather.rain.enable = true;
     setTimeout(() => {
       xviewer.Weather.rain.destroy();
@@ -278,78 +257,78 @@ onMounted(() => {
     }, 5000);
 
     //加载中国省级行政区矢量注记
-    const labelLayer=new LabelGeojsonLayer('chinaPlaces','https://zorrowm.github.io/data/poi/chinaProvince.json');
-            labelLayer.attr={
-              type:'注记',
-              layerID:'chinaPlaces',
-              layerName:'中国地名',
-              kind:'geojson'
-            }
-    xviewer.addLayer(labelLayer,true);
+    const labelLayer = new LabelGeojsonLayer('chinaPlaces', 'https://zorrowm.github.io/data/poi/chinaProvince.json');
+    labelLayer.attr = {
+      type: '注记',
+      layerID: 'chinaPlaces',
+      layerName: '中国地名',
+      kind: 'geojson'
+    }
+    xviewer.addLayer(labelLayer, true);
 
 
 
     //下面为mars3d测试代码
 
-      // map.on(mars3d.EventType.click, function (event) {
-  //   map.contextmenu._rightClickHandler(event)
-  // })
+    // map.on(mars3d.EventType.click, function (event) {
+    //   map.contextmenu._rightClickHandler(event)
+    // })
 
-  map.on(mars3d.EventType.contextMenuOpen, function (event) {
-    console.log("打开了右键菜单")
-  })
-  map.on(mars3d.EventType.contextMenuClose, function (event) {
-    console.log("关闭了右键菜单")
-  })
-  map.on(mars3d.EventType.contextMenuClick, function (event) {
-    console.log("单击了右键菜单", event)
+    map.on(mars3d.EventType.contextMenuOpen, function (event) {
+      console.log("打开了右键菜单")
+    })
+    map.on(mars3d.EventType.contextMenuClose, function (event) {
+      console.log("关闭了右键菜单")
+    })
+    map.on(mars3d.EventType.contextMenuClick, function (event) {
+      console.log("单击了右键菜单", event)
 
-    if (event.data.text === "绕此处环绕飞行") {
-      map.contextmenu.rotatePoint.on(mars3d.EventType.change, rotatePoint_onChangeHandler)
-    } else if (event.data.text === "关闭环绕飞行") {
-      map.contextmenu.rotatePoint.off(mars3d.EventType.change, rotatePoint_onChangeHandler)
-    }
-  })
-
-  // 为了演示图层上绑定方式
-  graphicLayer = new mars3d.layer.GeoJsonLayer({
-    name: "标绘示例数据",
-    url: "https://data.mars3d.cn/file/geojson/mars3d-draw.json"
-  })
-  map.addLayer(graphicLayer)
-
-  graphicLayer.on(mars3d.EventType.contextMenuOpen, function (event) {
-    event.stopPropagation()
-    console.log("打开了graphicLayer右键菜单")
-  })
-  graphicLayer.on(mars3d.EventType.contextMenuClose, function (event) {
-    event.stopPropagation()
-    console.log("关闭了graphicLayer右键菜单")
-  })
-  bindLayerDemo()
-
-  // 为了演示graphic上绑定方式
-  graphic = new mars3d.graphic.BoxEntity({
-    position: new mars3d.LngLatPoint(116.336525, 31.196721, 323.35),
-    style: {
-      dimensions: new Cesium.Cartesian3(2000.0, 2000.0, 2000.0),
-      fill: true,
-      color: "#00ff00",
-      opacity: 0.9,
-      label: {
-        text: "graphic绑定的演示",
-        font_size: 25,
-        font_family: "楷体",
-        color: "#003da6",
-        outline: true,
-        outlineColor: "#bfbfbf",
-        outlineWidth: 2,
-        horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
-        verticalOrigin: Cesium.VerticalOrigin.BOTTOM
+      if (event.data.text === "绕此处环绕飞行") {
+        map.contextmenu.rotatePoint.on(mars3d.EventType.change, rotatePoint_onChangeHandler)
+      } else if (event.data.text === "关闭环绕飞行") {
+        map.contextmenu.rotatePoint.off(mars3d.EventType.change, rotatePoint_onChangeHandler)
       }
-    }
-  })
-  map.graphicLayer.addGraphic(graphic)
+    })
+
+    // 为了演示图层上绑定方式
+    graphicLayer = new mars3d.layer.GeoJsonLayer({
+      name: "标绘示例数据",
+      url: "https://data.mars3d.cn/file/geojson/mars3d-draw.json"
+    })
+    map.addLayer(graphicLayer)
+
+    graphicLayer.on(mars3d.EventType.contextMenuOpen, function (event) {
+      event.stopPropagation()
+      console.log("打开了graphicLayer右键菜单")
+    })
+    graphicLayer.on(mars3d.EventType.contextMenuClose, function (event) {
+      event.stopPropagation()
+      console.log("关闭了graphicLayer右键菜单")
+    })
+    bindLayerDemo()
+
+    // 为了演示graphic上绑定方式
+    graphic = new mars3d.graphic.BoxEntity({
+      position: new mars3d.LngLatPoint(116.336525, 31.196721, 323.35),
+      style: {
+        dimensions: new Cesium.Cartesian3(2000.0, 2000.0, 2000.0),
+        fill: true,
+        color: "#00ff00",
+        opacity: 0.9,
+        label: {
+          text: "graphic绑定的演示",
+          font_size: 25,
+          font_family: "楷体",
+          color: "#003da6",
+          outline: true,
+          outlineColor: "#bfbfbf",
+          outlineWidth: 2,
+          horizontalOrigin: Cesium.HorizontalOrigin.CENTER,
+          verticalOrigin: Cesium.VerticalOrigin.BOTTOM
+        }
+      }
+    })
+    map.graphicLayer.addGraphic(graphic)
 
   }
 
