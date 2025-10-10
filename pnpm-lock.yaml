@@ -24,8 +24,8 @@ importers:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
       xgis-cesium-mars3d:
-        specifier: ^0.0.2
-        version: 0.0.2(vue@3.5.22(typescript@5.9.3))
+        specifier: ^0.0.3
+        version: 0.0.3(vue@3.5.22(typescript@5.9.3))
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
@@ -241,8 +241,8 @@ packages:
   '@mapbox/point-geometry@1.1.0':
     resolution: {integrity: sha512-YGcBz1cg4ATXDCM/71L9xveh4dynfGmcLDqufR+nQQy3fKwsAZsWd/x4621/6uJaeB9mwOHE6hPeDgXz9uViUQ==}
 
-  '@mapbox/vector-tile@2.0.3':
-    resolution: {integrity: sha512-Fq8PzBAaBeG3sEZA7Bomlv+8ZJcS5KCD6MRlCqiFrroOLnwZFFSJVydk1J9sneScJq9q4yyGfxKa+i7x2TLG8A==}
+  '@mapbox/vector-tile@2.0.4':
+    resolution: {integrity: sha512-AkOLcbgGTdXScosBWwmmD7cDlvOjkg/DetGva26pIRiZPdeJYjYKarIlb4uxVzi6bwHO6EWH82eZ5Nuv4T5DUg==}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -908,8 +908,8 @@ packages:
   d3-voronoi@1.1.2:
     resolution: {integrity: sha512-RhGS1u2vavcO7ay7ZNAPo4xeDh/VYeGof3x5ZLJBQgYhLegxr3s5IykvWmJ94FTU6mcbtp4sloqZ54mP6R4Utw==}
 
-  dexie@4.0.11:
-    resolution: {integrity: sha512-SOKO002EqlvBYYKQSew3iymBoN2EQ4BDw/3yprjh7kAfFzjBYkaMNa/pZvcA7HSWlcKSQb9XhPe3wKyQ0x4A8A==}
+  dexie@4.2.1:
+    resolution: {integrity: sha512-Ckej0NS6jxQ4Po3OrSQBFddayRhTCic2DoCAG5zacOfOVB9P2Q5Xc5uL/nVa7ZVs+HdMnvUPzLFCB/JwpB6Csg==}
 
   dompurify@3.2.6:
     resolution: {integrity: sha512-/2GogDQlohXPZe6D6NOgQvXLPSYBqIWMnZ8zzOhn09REE4eyAzb+Hed3jhoM9OkuaJ8P6ZGTTVWQKAi8ieIzfQ==}
@@ -1089,8 +1089,8 @@ packages:
     peerDependencies:
       ol: '>= 5.0.0'
 
-  ol@10.5.0:
-    resolution: {integrity: sha512-nHFx8gkGmvYImsa7iKkwUnZidd5gn1XbMZd9GNOorvm9orjW9gQvT3Naw/MjIasVJ3cB9EJUdCGR2EFAulMHsQ==}
+  ol@10.6.1:
+    resolution: {integrity: sha512-xp174YOwPeLj7c7/8TCIEHQ4d41tgTDDhdv6SqNdySsql5/MaFJEJkjlsYcvOPt7xA6vrum/QG4UdJ0iCGT1cg==}
 
   p-map@7.0.3:
     resolution: {integrity: sha512-VkndIv2fIB99swvQoA65bm+fsmt6UNdGeIB0oxBs+WhAhdh08QA04JXpI7rbB9r08/nkbysKoya9rtDERYOYMA==}
@@ -1338,8 +1338,8 @@ packages:
   web-worker@1.5.0:
     resolution: {integrity: sha512-RiMReJrTAiA+mBjGONMnjVDP2u3p9R1vkcGz6gDIrOMT3oGuYwX2WRMYI9ipkphSuE5XKEhydbhNEJh4NY9mlw==}
 
-  xgis-cesium-mars3d@0.0.2:
-    resolution: {integrity: sha512-5FkPLlGaVakNPsdWet/Twop9QDLnEoWCLJTUOMolGxwgKiqXCFRWMZ8wiPBsYZXFx5aNZG+i1DhqY+0kfvADNA==}
+  xgis-cesium-mars3d@0.0.3:
+    resolution: {integrity: sha512-G8cRJ83TmWmiIJF5rYmwdH1PX6lJ/t7CBt6UhVzPkF5QAXMW/b76/XjCAZLwZArTnZ3kb3jtUk/fFBi6vnL9ng==}
 
   xml-utils@1.10.2:
     resolution: {integrity: sha512-RqM+2o1RYs6T8+3DzDSoTRAUfrvaejbVHcp3+thnAtDKo8LskR+HomLajEy5UjTz24rpka7AxVBRR3g2wTUkJA==}
@@ -1481,7 +1481,7 @@ snapshots:
 
   '@mapbox/point-geometry@1.1.0': {}
 
-  '@mapbox/vector-tile@2.0.3':
+  '@mapbox/vector-tile@2.0.4':
     dependencies:
       '@mapbox/point-geometry': 1.1.0
       '@types/geojson': 7946.0.16
@@ -2888,7 +2888,7 @@ snapshots:
 
   d3-voronoi@1.1.2: {}
 
-  dexie@4.0.11: {}
+  dexie@4.2.1: {}
 
   dompurify@3.2.6:
     optionalDependencies:
@@ -3066,11 +3066,11 @@ snapshots:
 
   nosleep.js@0.12.0: {}
 
-  ol-wfs-capabilities@2.0.0(ol@10.5.0):
+  ol-wfs-capabilities@2.0.0(ol@10.6.1):
     dependencies:
-      ol: 10.5.0
+      ol: 10.6.1
 
-  ol@10.5.0:
+  ol@10.6.1:
     dependencies:
       '@types/rbush': 4.0.0
       earcut: 3.0.1
@@ -3307,16 +3307,16 @@ snapshots:
 
   web-worker@1.5.0: {}
 
-  xgis-cesium-mars3d@0.0.2(vue@3.5.22(typescript@5.9.3)):
+  xgis-cesium-mars3d@0.0.3(vue@3.5.22(typescript@5.9.3)):
     dependencies:
       '@mapbox/point-geometry': 1.1.0
-      '@mapbox/vector-tile': 2.0.3
+      '@mapbox/vector-tile': 2.0.4
       '@turf/turf': 7.2.0
       comlink: 4.4.2
-      dexie: 4.0.11
+      dexie: 4.2.1
       kdbush: 4.0.2
-      ol: 10.5.0
-      ol-wfs-capabilities: 2.0.0(ol@10.5.0)
+      ol: 10.6.1
+      ol-wfs-capabilities: 2.0.0(ol@10.6.1)
       pbf: 4.0.1
       spark-md5: 3.0.2
       supercluster: 8.0.1
