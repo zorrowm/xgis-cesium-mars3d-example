@@ -4,5 +4,5 @@ import {mars3dPlugin} from 'vite-plugin-mars3d';
 
 // https://vite.dev/config/
 export default defineConfig({
-  plugins: [vue(),mars3dPlugin()],
+  plugins: [vue(),mars3dPlugin({ cesiumPackageName: "cesium" }),],
 })

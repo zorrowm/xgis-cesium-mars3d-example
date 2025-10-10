@@ -9,17 +9,19 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "mars3d": "~3.8.2",
-    "mars3d-cesium": "^1.125.0",
-    "vue": "^3.5.13",
+    "cesium": "1.134.0",
+    "kdbush": "^4.0.2",
+    "mars3d": "~3.10.5",
+    "mars3d-cesium": "^1.134.0",
+    "vue": "^3.5.22",
     "xgis-cesium-mars3d": "^0.0.2"
   },
   "devDependencies": {
-    "@vitejs/plugin-vue": "^5.2.4",
-    "@vue/tsconfig": "^0.7.0",
-    "typescript": "~5.8.3",
-    "vite": "^6.3.5",
+    "@vitejs/plugin-vue": "^6.0.1",
+    "@vue/tsconfig": "^0.8.1",
+    "typescript": "~5.9.3",
+    "vite": "^7.1.9",
     "vite-plugin-mars3d": "^4.2.2",
-    "vue-tsc": "^2.2.10"
+    "vue-tsc": "^3.1.1"
   }
 }

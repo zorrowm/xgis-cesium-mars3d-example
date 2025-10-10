@@ -7,13 +7,12 @@
 <script setup lang="ts">
 import { onMounted, ref } from 'vue';
 import * as mars3d from "mars3d"
-import { Cesium } from "mars3d"
+// import * as Cesium  from "cesium";
+import * as Cesium   from "mars3d-cesium";
 import { XViewer, LabelGeojsonLayer } from 'xgis-cesium-mars3d';
 import "mars3d/mars3d.css";
-import "mars3d-cesium/Build/Cesium/Widgets/widgets.css";
 import 'xgis-cesium-mars3d/dist/index.css'
 import './getDefaultContextMenu.js';
-
 
 // 定义全局地图变量
 let map: mars3d.Map | null = null;
@@ -247,7 +246,9 @@ onMounted(() => {
   const xviewer = initCesiumViewer();
 
   if (xviewer) {
-    map = new mars3d.Map(xviewer as any);
+    const viewer:any= xviewer;
+    // debugger;
+    map =new mars3d.Map(viewer);
     //默认单张图片，作为底图
     xviewer.setBasicLayer('GD_IMG');
     xviewer.Weather.rain.enable = true;
@@ -257,14 +258,14 @@ onMounted(() => {
     }, 5000);
 
     //加载中国省级行政区矢量注记
-    const labelLayer = new LabelGeojsonLayer('chinaPlaces', 'https://zorrowm.github.io/data/poi/chinaProvince.json');
-    labelLayer.attr = {
-      type: '注记',
-      layerID: 'chinaPlaces',
-      layerName: '中国地名',
-      kind: 'geojson'
-    }
-    xviewer.addLayer(labelLayer, true);
+    // const labelLayer = new LabelGeojsonLayer('chinaPlaces', 'https://zorrowm.github.io/data/poi/chinaProvince.json');
+    // labelLayer.attr = {
+    //   type: '注记',
+    //   layerID: 'chinaPlaces',
+    //   layerName: '中国地名',
+    //   kind: 'geojson'
+    // }
+    // xviewer.addLayer(labelLayer, true);
 
 
 
