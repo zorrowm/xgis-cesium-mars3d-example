@@ -246,7 +246,7 @@ onMounted(() => {
   const xviewer = initCesiumViewer();
 
   if (xviewer) {
-    const viewer:any= xviewer;
+    const viewer:any= xviewer as mars3d.Cesium.Viewer;
     // debugger;
     map =new mars3d.Map(viewer);
     //默认单张图片，作为底图

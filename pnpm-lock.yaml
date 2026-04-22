@@ -15,8 +15,8 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
       mars3d:
-        specifier: ~3.10.5
-        version: 3.10.5(@turf/turf@7.2.0)(mars3d-cesium@1.134.0)
+        specifier: ~3.10.6
+        version: 3.10.6(@turf/turf@7.2.0)(mars3d-cesium@1.134.0)
       mars3d-cesium:
         specifier: ^1.134.0
         version: 1.134.0
@@ -1049,8 +1049,8 @@ packages:
     resolution: {integrity: sha512-FkoQuV85kZjHT0bVs8+v2dA/dcqhi5nCfcnGHr3Rp2VG6oMMM+fjNWqDtDHKORuZsyXAreMYy/44vwlWGNn9fg==}
     engines: {node: '>=20.19.0'}
 
-  mars3d@3.10.5:
-    resolution: {integrity: sha512-u6kZ00BBB/1tY72YQQwUqo72jjUiai0ppEeYrJbNFFGCv4UPIQunUOUo5sanY0+bv8je864mOmi3IfemF2OWiA==}
+  mars3d@3.10.6:
+    resolution: {integrity: sha512-rpmzUoO4itB5hKgu0Sbz2bIaljMs7+L+6oo0H+UbBgx2htTVITCFqXcBs2rIwwjfd6d8uFWl4XrRV4BIX4O3+w==}
     peerDependencies:
       '@turf/turf': ^7.2.0
       mars3d-cesium: ^1.131.0
@@ -3042,7 +3042,7 @@ snapshots:
 
   mars3d-cesium@1.134.0: {}
 
-  mars3d@3.10.5(@turf/turf@7.2.0)(mars3d-cesium@1.134.0):
+  mars3d@3.10.6(@turf/turf@7.2.0)(mars3d-cesium@1.134.0):
     dependencies:
       '@turf/turf': 7.2.0
       mars3d-cesium: 1.134.0
