@@ -1,0 +1,5 @@
+allowBuilds:
+  esbuild: false
+  protobufjs: false
+minimumReleaseAgeExclude:
+  - xgis-cesium-mars3d@0.0.4

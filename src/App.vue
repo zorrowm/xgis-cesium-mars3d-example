@@ -9,14 +9,54 @@ import { onMounted, ref } from 'vue';
 import * as mars3d from "mars3d"
 // import * as Cesium  from "cesium";
 import * as Cesium   from "mars3d-cesium";
-import { XViewer, LabelGeojsonLayer } from 'xgis-cesium-mars3d';
+import { XViewer, LabelGeojsonLayer,LabelMassiveLayer } from 'xgis-cesium-mars3d';
 import "mars3d/mars3d.css";
 import 'xgis-cesium-mars3d/dist/index.css'
 import './getDefaultContextMenu.js';
 
 // 定义全局地图变量
 let map: mars3d.Map | null = null;
+// function checkAllCesiumLimit() {
+//   const canvas = document.createElement("canvas");
+//   // 先判断WebGL2
+//   const gl2 = canvas.getContext("webgl2") || canvas.getContext("experimental-webgl2");
+//   const supportWebGL2 = !!gl2;
 
+//   if (supportWebGL2) {
+//     return {
+//       supportWebGL2: true,
+//       needCheckExt: false,
+//       hasInstancedExt: null,
+//       maxVertexTextureUnits: null
+//     };
+//   }
+
+//   // WebGL1环境检测扩展与纹理单元
+//   const gl = canvas.getContext("webgl") || canvas.getContext("experimental-webgl");
+//   if (!gl) {
+//     return {
+//       supportWebGL2: false,
+//       needCheckExt: true,
+//       hasInstancedExt: false,
+//       maxVertexTextureUnits: 0
+//     };
+//   }
+
+//   const instExt = gl.getExtension("ANGLE_instanced_arrays");
+//   const maxTexUnit = gl.getParameter(gl.MAX_VERTEX_TEXTURE_IMAGE_UNITS);
+
+//   return {
+//     supportWebGL2: false,
+//     needCheckExt: true,
+//     hasInstancedExt: !!instExt,
+//     maxVertexTextureUnits: maxTexUnit
+//   };
+// }
+
+
+// 执行查看完整硬件限制
+// const res = checkAllCesiumLimit();
+// console.log("Cesium1.140硬件检测结果：", res);
 
 //初始化地球
 function initCesiumViewer() {
@@ -40,6 +80,13 @@ function initCesiumViewer() {
       contextOptions: {
         // cesium状态下允许canvas转图片convertToImage
         webgl: {
+          //  version: 2, // 强制WebGL2
+          // antialias: true,
+  // 优先尝试 WebGL2
+    //  requestWebgl1: true ,
+    // 关键：禁止WebGL2失败后自动降级WebGL1
+    // failIfMajorPerformanceCaveat: false,
+    // powerPreference: "high-performance",
           preserveDrawingBuffer: true, //通过canvas.toDataURL()实现截图需要将该项设置为true
         },
       },
@@ -251,22 +298,114 @@ onMounted(() => {
     map =new mars3d.Map(viewer);
     //默认单张图片，作为底图
     xviewer.setBasicLayer('GD_IMG');
-    xviewer.Weather.rain.enable = true;
-    setTimeout(() => {
-      xviewer.Weather.rain.destroy();
-      xviewer.scene.requestRender();
-    }, 5000);
+    // xviewer.Weather.rain.enable = true;
+    // setTimeout(() => {
+    //   xviewer.Weather.rain.destroy();
+    //   xviewer.scene.requestRender();
+    // }, 5000);
+
+       const defaultStyleObject = {
+      show: false,
+      near: 500000,
+      far: 5000000,
+      weight: 2,
+      offset: -15,
+      fontColor: "#EEEEEE",
+      fontAlpha: 1,
+      fontFamily: "黑体",
+      fontSize: 16,
+      labelField: "tsmc",
+      filterField: "tsmc",
+      excludeValue: "北京,北京市,中华人民共和国",
+      outlineColor: "#000000",
+      outlineWidth: 2,
+      imgUrl: 'img/style/city2.png',
+      imgWidth: 20,
+      imgHeight: 20,
+      children: [
+        {
+          weight: 3,
+          offset: -15,
+          fontColor: "#eee",
+          fontSize: 16,
+          fontAlpha: 1,
+          fontFamily: "黑体",
+          filterField: "tsmc",
+          includeValue: '北京市',
+          excludeValue: undefined,
+          imgUrl: 'img/style/city1.png',
+          imgWidth: 20,
+          imgHeight: 20,
+        },
+        {
+          near: 5000000,
+          far: 10000000,
+          weight: 5,
+          offset: -15,
+          fontColor: "#ff0000",
+          fontSize: 18,
+          filterField: "tsmc",
+          includeValue: '北京',
+          excludeValue: undefined,
+          imgUrl: 'img/style/star.png',
+          imgWidth: 20,
+          imgHeight: 20,
+        },
+        {
+          near: 5000000,
+          far: 30000000,
+          weight: 5,
+          offset: -15,
+          fontColor: "#eee",
+          fontSize: 20,
+          fontFamily: "黑体",
+          filterField: "tsmc",
+          includeValue: '中华人民共和国',
+          excludeValue: undefined,
+          imgUrl: '',
+        }
+      ]
+    };
 
     //加载中国省级行政区矢量注记
-    // const labelLayer = new LabelGeojsonLayer('chinaPlaces', 'https://zorrowm.github.io/data/poi/chinaProvince.json');
-    // labelLayer.attr = {
-    //   type: '注记',
-    //   layerID: 'chinaPlaces',
-    //   layerName: '中国地名',
-    //   kind: 'geojson'
-    // }
-    // xviewer.addLayer(labelLayer, true);
+    const labelLayer = new LabelGeojsonLayer('chinaPlaces', '/poi/chinaData.json',defaultStyleObject);
+     labelLayer.attr = {
+       type: '注记',
+       layerID: 'chinaPlaces',
+       layerName: '中国地名',
+       kind: 'geojson'
+     }
+     xviewer.addLayer(labelLayer);
 
+
+
+     const cunStyleObject:any={
+      show: true,
+      // minLevel: 7,
+      // maxLevel: 10,
+      near: 40000,
+      far: 1000000,
+      weight: 2,
+      offset: -15,
+      fontColor: "#EEE",
+      fontFamily: "黑体",
+      fontSize: 14,
+      labelField: "NAME",
+      outlineColor: "#000000",
+      outlineWidth: 2,
+      imgUrl: 'img/style/city2.png',
+      imgWidth: 20,
+      imgHeight: 20,
+      };
+        const labelLayer2=new LabelMassiveLayer('testPlaces','/poi/coutyPOI.json',cunStyleObject);
+        labelLayer2.show=true;
+        labelLayer2.attr={
+          type:'注记',//'model3d',
+          layerID:'testPlaces',
+          layerName:'测试地名',
+          kind:'geojson'
+        }
+        xviewer.addLayer(labelLayer2,true);
 
 
     //下面为mars3d测试代码
@@ -340,7 +479,7 @@ onMounted(() => {
 
 <style scoped>
 .mars3d-container {
-  width: 100%;
+  width: 100vw;
   height: 100vh;
 }
 </style>

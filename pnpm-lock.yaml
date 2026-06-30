@@ -12,17 +12,17 @@ importers:
         specifier: ^4.0.2
         version: 4.0.2
       mars3d:
-        specifier: ^3.10.6
-        version: 3.10.6(@turf/turf@7.2.0)(mars3d-cesium@1.134.0)
+        specifier: ^3.11.4
+        version: 3.11.4(@turf/turf@7.2.0)(mars3d-cesium@1.142.1)
       mars3d-cesium:
-        specifier: ^1.134.0
-        version: 1.134.0
+        specifier: ^1.142.1
+        version: 1.142.1
       vue:
         specifier: ^3.5.22
         version: 3.5.22(typescript@5.9.3)
       xgis-cesium-mars3d:
-        specifier: ^0.0.3
-        version: 0.0.3(vue@3.5.22(typescript@5.9.3))
+        specifier: ^0.0.4
+        version: 0.0.4(vue@3.5.22(typescript@5.9.3))
     devDependencies:
       '@vitejs/plugin-vue':
         specifier: ^6.0.1
@@ -965,12 +965,11 @@ packages:
   marchingsquares@1.3.3:
     resolution: {integrity: sha512-gz6nNQoVK7Lkh2pZulrT4qd4347S/toG9RXH2pyzhLgkL5mLkBoqgv4EvAGXcV0ikDW72n/OQb3Xe8bGagQZCg==}
 
-  mars3d-cesium@1.134.0:
-    resolution: {integrity: sha512-FkoQuV85kZjHT0bVs8+v2dA/dcqhi5nCfcnGHr3Rp2VG6oMMM+fjNWqDtDHKORuZsyXAreMYy/44vwlWGNn9fg==}
-    engines: {node: '>=20.19.0'}
+  mars3d-cesium@1.142.1:
+    resolution: {integrity: sha512-gimPF6cMCjQMu5JUp449eq2hS9z8TseI1c6Uwe4oWk3TzCMDu/KW/pnx8FgJpyGUU6Yrmvl6VYgtZGePOySDDw==}
 
-  mars3d@3.10.6:
-    resolution: {integrity: sha512-rpmzUoO4itB5hKgu0Sbz2bIaljMs7+L+6oo0H+UbBgx2htTVITCFqXcBs2rIwwjfd6d8uFWl4XrRV4BIX4O3+w==}
+  mars3d@3.11.4:
+    resolution: {integrity: sha512-y2i866iSBLo3FGqUw6fLo6ghvxsFRvuzJyTbGCEOmGrHlDo/48oeMsaDet+tco7qCkFtkckfd/15wkx4of858Q==}
     peerDependencies:
       '@turf/turf': ^7.2.0
       mars3d-cesium: ^1.131.0
@@ -1242,8 +1241,8 @@ packages:
   web-worker@1.5.0:
     resolution: {integrity: sha512-RiMReJrTAiA+mBjGONMnjVDP2u3p9R1vkcGz6gDIrOMT3oGuYwX2WRMYI9ipkphSuE5XKEhydbhNEJh4NY9mlw==}
 
-  xgis-cesium-mars3d@0.0.3:
-    resolution: {integrity: sha512-G8cRJ83TmWmiIJF5rYmwdH1PX6lJ/t7CBt6UhVzPkF5QAXMW/b76/XjCAZLwZArTnZ3kb3jtUk/fFBi6vnL9ng==}
+  xgis-cesium-mars3d@0.0.4:
+    resolution: {integrity: sha512-T+fiGQi9Kl2PNP6amlWIkBEIBrzulOk5PcII8ec971nE+g/eWSTPXOWXx938RywD8As8SmMP9m4QNl7B27//fw==}
 
   xml-utils@1.10.2:
     resolution: {integrity: sha512-RqM+2o1RYs6T8+3DzDSoTRAUfrvaejbVHcp3+thnAtDKo8LskR+HomLajEy5UjTz24rpka7AxVBRR3g2wTUkJA==}
@@ -2855,12 +2854,12 @@ snapshots:
 
   marchingsquares@1.3.3: {}
 
-  mars3d-cesium@1.134.0: {}
+  mars3d-cesium@1.142.1: {}
 
-  mars3d@3.10.6(@turf/turf@7.2.0)(mars3d-cesium@1.134.0):
+  mars3d@3.11.4(@turf/turf@7.2.0)(mars3d-cesium@1.142.1):
     dependencies:
       '@turf/turf': 7.2.0
-      mars3d-cesium: 1.134.0
+      mars3d-cesium: 1.142.1
 
   merge2@1.4.1: {}
 
@@ -3100,7 +3099,7 @@ snapshots:
 
   web-worker@1.5.0: {}
 
-  xgis-cesium-mars3d@0.0.3(vue@3.5.22(typescript@5.9.3)):
+  xgis-cesium-mars3d@0.0.4(vue@3.5.22(typescript@5.9.3)):
     dependencies:
       '@mapbox/point-geometry': 1.1.0
       '@mapbox/vector-tile': 2.0.4

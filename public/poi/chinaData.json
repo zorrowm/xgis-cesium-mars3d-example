@@ -1,0 +1,5915 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "geometry": {
+        "coordinates": [100.137832931274, 35],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中华人民共和国",
+        "minl": 0,
+        "maxl": 5,
+        "dmlb": "21100",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.3912338, 39.9071441],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北京",
+        "minl": 2,
+        "maxl": 4,
+        "dmlb": "21299",
+        "type": 3,
+        "xzqh": "110101"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.7184261, 39.9036585],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北京市",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "110000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.3912338, 39.9071441],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "",
+        "minl": 12,
+        "maxl": 18,
+        "dmlb": "tiananmen",
+        "type": 3,
+        "xzqh": "110101"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [121.563792, 25.037522],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "台湾省",
+        "minl": 4,
+        "maxl": 18,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "710000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.173597, 22.28933],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "香港特别行政区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 5,
+        "xzqh": "810000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.552688, 22.195127],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "澳门特别行政区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 6,
+        "xzqh": "820000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.173597, 22.28933],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "香港特别行政区",
+        "minl": 7,
+        "maxl": 19,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "810000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.552688, 22.195127],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "澳门特别行政区",
+        "minl": 7,
+        "maxl": 19,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "820000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4738175, 25.7451048],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "钓鱼岛",
+        "minl": 6,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.558583, 25.922444],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤尾屿",
+        "minl": 6,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6816512, 25.9233121],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "黄尾屿",
+        "minl": 6,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.122109, 16.02056],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西沙群岛",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.4082452, 20.9140067],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东沙群岛",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.275687, 9.710674],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南沙群岛",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.635038, 16.009638],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中沙群岛",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.783115, 15.178754],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "黄岩岛（民主礁）",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [121.469088, 31.23237],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "上海市",
+        "minl": 4,
+        "maxl": 8,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "310000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [87.604824, 43.79224],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "新疆维吾尔自治区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "650000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [126.636792, 45.763108],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "黑龙江省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "230000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [120.148888, 30.267872],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "浙江省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "330000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.413104, 41.848148],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "辽宁省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "210000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [119.290296, 26.103484],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "福建省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "350000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.900816, 28.681426],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "江西省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "360000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.279592, 31.86349],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安徽省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "340000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.014672, 36.6665],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "山东省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "370000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.36084, 30.56959],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "湖北省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "420000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.979024, 28.117908],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "湖南省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "430000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.256672, 23.129924],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "广东省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "440000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [110.352216, 20.03266],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海南省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "460000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [106.54844, 29.565624],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "重庆市",
+        "minl": 4,
+        "maxl": 8,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "500000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [104.072192, 30.653942],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "四川省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "510000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.679704, 34.768928],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "河南省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "410000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.208496, 39.119628],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "天津市",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "120000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.52456, 38.037136],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "河北省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "130000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [102.708696, 25.047964],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "云南省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "530000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [91.123993, 29.654594],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西藏自治区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "540000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [125.3188, 43.894404],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "吉林省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "220000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [108.32384, 22.820784],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "广西壮族自治区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "450000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [106.254072, 38.470752],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "宁夏回族自治区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "640000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.671432, 40.822476],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "内蒙古自治区",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "150000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [108.896264, 34.253748],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "陕西省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "610000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.55576, 37.87662],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "山西省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "140000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [103.823912, 36.059596],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "甘肃省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "620000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [101.746008, 36.636584],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "青海省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 1,
+        "xzqh": "630000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [118.757648, 32.062874],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "江苏省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "320000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [106.70084, 26.601646],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "贵州省",
+        "minl": 4,
+        "maxl": 6,
+        "dmlb": "21200",
+        "type": 3,
+        "xzqh": "520000"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4873722, 25.7501163],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙头鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4613097, 25.7350746],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鲳鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4762669, 25.7401971],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大黄鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4832539, 25.7405348],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小黄鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.488239, 25.7403655],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金钱鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4879493, 25.7402904],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金钱鱼西岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4890865, 25.7403977],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "梅童鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.5541709, 25.9207209],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "望赤岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.541583, 25.729833],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北小岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.542311, 25.73198685],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鸟巢岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5424352, 25.73180847],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鸟卵岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5450473, 25.72793397],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小鸟岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.550194, 25.723306],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南小岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5444807, 25.7244727],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙门北岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5441434, 25.72409241],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙门岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5446895, 25.72375212],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙门南岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5431505, 25.72295868],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "卧龙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5429093, 25.72284762],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "卧龙西岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5563513, 25.72240581],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞龙北岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5563927, 25.72211493],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞龙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5559326, 25.7218596],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙珠岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5566048, 25.72178409],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞龙南岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5565137, 25.72129989],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "长龙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5558052, 25.72118604],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金龙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5435, 25.781194],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北屿",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.543083, 25.780278],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北屿仔岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.542694, 25.780028],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小元宝岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.539722, 25.779361],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞云岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.540917, 25.779306],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "元宝岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.5665, 25.755417],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南屿",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.505944, 25.735722],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞屿",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.506556, 25.735361],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "飞仔岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.490584, 25.740738],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙王鲷东岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4905533, 25.7404069],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙王鲷南岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.492694, 25.7416869],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "黄姑鱼岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6789065, 25.9280439],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海豚岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6778398, 25.9271488],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大珠岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6779384, 25.9270776],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小珠岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.682576, 25.9291057],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "上虎牙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.683728, 25.9286765],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "下虎牙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6851834, 25.9274452],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西牛角岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6853471, 25.9274339],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东牛角岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6847147, 25.9274],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "黄牛岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6861957, 25.9269172],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "牛尾岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6859845, 25.926313],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "牛蹄岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.676778, 25.925639],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小龙岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6760656, 25.924497],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大雁岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6758054, 25.92433332],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "燕子岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4891984, 25.7403701],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "梅童鱼东岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4887141, 25.7402904],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "梅童鱼西岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4903081, 25.7407441],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙王鲷岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.4900322, 25.7407319],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙王鲷西岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.677306, 25.921917],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "卧蚕岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.677806, 25.921194],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大金龟子岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.678944, 25.920028],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小金龟子岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.689028, 25.921917],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海龟岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.6877348, 25.9250011],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海星岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.68746, 25.9199784],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海贝岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.559056, 25.924306],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤背北岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.559722, 25.924028],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤背东岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.558944, 25.923694],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤背西岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.559472, 25.923472],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤背南岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.556222, 25.922111],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小赤尾岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.556167, 25.921722],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤头岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.555861, 25.921694],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤冠岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.555917, 25.921611],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤鼻岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [124.555763, 25.9214942],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤嘴岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [123.676333, 25.922639],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "刺猬岛",
+        "minl": 7,
+        "maxl": 17,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": ""
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.740012, 16.445572],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "晋卿门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.586354, 16.505278],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "甘泉岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.203699, 15.785255],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中建岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.338681, 16.834042],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "永兴岛",
+        "minl": 14,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.347994, 16.919422],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东新沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.346079, 16.929362],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.344056, 16.933764],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.750462, 16.544246],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石屿",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.715271, 16.545876],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "咸舍屿",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.701217, 16.452224],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "广金岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.730946, 20.74694],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北水道",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11100",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.684566, 16.583245],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "银屿门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.466231, 9.902753],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西门礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.795456, 11.151342],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "蒙自礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.480886, 10.375004],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "敦谦沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.583712, 10.405731],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "舶兰礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.699154, 10.340071],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安达礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.615649, 6.944555],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "皇路礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.843014, 7.400488],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "弹丸礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.815098, 7.631136],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "光星礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.951826, 7.627574],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "光星仔礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.245603, 7.73218],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安渡滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.279807, 7.830843],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "破浪礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.939509, 7.989587],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南海礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.050081, 7.935814],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "息波礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.131577, 8.10563],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "簸箕礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.582617, 8.127517],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "浪口礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.793889, 8.132559],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "线头礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.730353, 8.167771],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "二角礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.723465, 8.123933],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "榆亚暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.89223, 7.984458],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金吾暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.249903, 8.105651],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "单柱石",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.338802, 8.21575],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "柏礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.960503, 8.456076],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "隐遁暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.901537, 7.867407],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安波沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.221069, 8.360804],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "司令礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.41687, 8.331815],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "双礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.524008, 8.466505],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南乐暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.255573, 8.489121],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "校尉暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.348085, 8.501867],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "玉诺礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.460719, 8.550104],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "朱应滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.676691, 8.667434],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "日积礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.889486, 8.645183],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南威岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.226522, 8.878063],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.347157, 8.93087],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.446806, 8.795537],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "尹庆群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.607288, 8.820428],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.845576, 8.912213],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "华阳礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.691888, 8.998859],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "毕生礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.976459, 8.778424],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "六门礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.183204, 8.721025],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南华礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.652076, 8.861702],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "无乜礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.273954, 8.903115],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "半月礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.666007, 9.04525],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "舰长礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.459713, 9.176292],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海口礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.655388, 9.227705],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石盘仔",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.411294, 9.457517],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "逍遥暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.214919, 9.380848],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "伏波礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.446203, 9.36866],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "仙娥礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.92943, 9.328685],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "信义礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.440144, 9.516032],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "片礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.927125, 9.455714],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "蓬勃暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.755099, 9.783566],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "钟山礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.451495, 9.795926],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "仙宾礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.195462, 9.605553],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "牛车轮礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.861344, 9.741895],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "仁爱礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.712522, 9.72548],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "泛爱暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.262855, 9.807813],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "九章群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.403489, 9.797406],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "屈原礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.854001, 10.053504],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大现礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.004805, 9.998293],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "小现礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.330275, 9.88564],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "景宏岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.497216, 9.911969],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东门礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.566181, 9.962781],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "长线礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.665422, 10.00119],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "牛轭礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.180793, 10.000889],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "孔明礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.542526, 9.905789],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "美济礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.150465, 10.138111],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "半路礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.619165, 9.857745],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "立新礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.391598, 10.126975],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "红石暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.321153, 10.352538],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "莪兰暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.814623, 10.442467],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南方浅滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.525888, 10.333355],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东坡礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.747704, 10.429034],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.050365, 10.463324],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "浔江暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.367131, 10.25203],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "禄沙礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.081723, 10.342259],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "恒礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.365959, 10.376999],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "太平岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.367225, 10.179503],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鸿庥岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.224617, 10.208578],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南薰礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.63863, 10.231602],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "福禄寺礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.368856, 10.72382],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "双黄沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.565253, 10.741002],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "杨信沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.142105, 10.539691],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北恒礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.732341, 10.533404],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方北",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.803629, 10.733014],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "马欢岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.168361, 10.628033],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鲎藤礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.200075, 10.753968],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "巩珍礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.708407, 10.521731],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "宝滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.344027, 10.707297],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "棕滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.975384, 10.567737],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "彬礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.208929, 10.614321],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "紫滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.680869, 10.655799],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "仙后滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.812834, 10.800552],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海马滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.674861, 11.052573],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "神仙暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.877236, 10.8254],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "阳明礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.711755, 10.861514],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "礼乐南礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.446817, 10.899923],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安塘礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.090941, 10.808878],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "火星礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.824244, 10.818641],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "费信岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.932605, 10.894322],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "和平暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.919589, 10.868938],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "火艾礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.745653, 11.063645],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "长滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.024366, 11.081798],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西月岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.618409, 11.324699],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "乐斯暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.324846, 11.058216],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "梅九礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.222429, 11.059847],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "铁线礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.38952, 11.459646],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "贡士礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.708016, 11.467221],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "永登暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.131175, 11.456857],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "大渊滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.65163, 11.351178],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "礼乐滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.619476, 5.485852],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南安礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.685437, 5.081675],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "潭门礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.601194, 5.375087],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南屏礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.507768, 5.026507],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海安礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.539718, 4.911687],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "澄平礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [109.576628, 7.53684],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "万安滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [110.550249, 8.025153],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "人骏滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [110.418048, 7.813709],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "李准滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [109.927568, 7.881],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西卫滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [110.450234, 8.147934],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "广雅滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.661026, 7.812443],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南薇滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.64459, 7.939236],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "蓬勃堡",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.676991, 7.713544],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "奥南暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.544404, 7.843192],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "常骏暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.951456, 8.15053],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "奥援暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.527796, 7.585979],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金盾暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.278635, 3.9640652],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "曾母暗沙",
+        "minl": 6,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.399146, 13.953543],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中南暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.720123, 16.337404],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "宪法暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.245877, 15.718608],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "嵩焘滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.530513, 16.032126],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "浪花礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.785438, 16.054013],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "盘石屿",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.677957, 16.202521],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "华光礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.024026, 16.347103],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "玉琢礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.508269, 16.448083],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "金银岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.607876, 16.534128],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "珊瑚岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.704628, 16.579533],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "银屿",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.74233, 16.463425],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "晋卿岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.731485, 16.666887],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.64308, 16.576872],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "高尖石",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.526543, 16.517005],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北边廊",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.229354, 16.775613],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "银砾滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.342136, 16.937661],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.212253, 16.97753],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.552601, 17.121725],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.887847, 16.824944],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西渡滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.672005, 16.40388],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "湛涵滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.450926, 16.298523],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "滨湄滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.9008124, 20.6245482],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东沙礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.003137, 21.078348],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北卫滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.7255909, 20.7024055],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东沙岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.497068, 9.311969],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "康泰滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.577663, 16.460325],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "羚羊礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.659181, 16.45305],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "筐仔沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.713791, 16.451291],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "琛航岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.676326, 16.57993],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "全富岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.686926, 16.56669],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鸭公岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.424517, 10.667762],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南钥岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.350038, 10.675787],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "道明群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.086387, 10.923322],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "渚碧礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.889864, 9.547499],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "永暑礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.371066, 9.779414],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "琼礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.465587, 9.830805],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "漳溪礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.511421, 9.868721],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "扁参礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.395034, 9.897431],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南门礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.523866, 9.933115],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安乐礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.533157, 9.889299],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "龙虾礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.564614, 9.904383],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "染青沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.598238, 9.906701],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "染青东礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.307508, 9.879385],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "吉阳礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.281437, 9.852628],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "华礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.258113, 9.770273],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鬼喊礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.590685, 9.976653],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "主权礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.580042, 10.739967],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "库归礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.285514, 11.052626],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中业岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.37216, 11.089169],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "铁峙礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.297187, 11.099383],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中业群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.302273, 11.385092],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "奈罗礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.330554, 11.428372],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南子岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.35744, 11.400584],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东南暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.384649, 11.436912],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东北暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.375594, 11.484376],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "双子群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.372289, 11.453241],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北子暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.353578, 11.449851],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北子岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.339802, 11.447705],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北外沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.809744, 15.121301],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南岩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.731295, 15.212733],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北岩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.582835, 16.498498],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "甘泉门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.309563, 16.963443],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.271733, 16.979708],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赵述岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.324541, 16.955096],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.334089, 16.946791],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.288771, 16.955525],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "宣德群岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.346427, 16.922008],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西新沙洲",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.347436, 16.844235],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石岛",
+        "minl": 12,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.721945, 16.569877],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "银屿仔",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.586461, 16.516683],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "老粗门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.63238, 16.548784],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "全富门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.734433, 16.560671],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石屿门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.34735, 16.885197],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "红草门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.297354, 16.970127],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赵述门",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.066045, 15.953183],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "西门暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.298518, 16.041739],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鲁班暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.186273, 15.433393],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "布德暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.655809, 15.972731],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "指掌暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.008461, 19.501917],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "神狐暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.858743, 19.197476],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "一统暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.304891, 10.311489],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "郑和群礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.619219, 5.715599],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北康暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.523174, 5.92582],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海康暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.599574, 9.025681],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石龙岩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.298295, 10.190361],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "三角礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.725861, 10.463774],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方尾",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.779633, 10.459611],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方南",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.707149, 10.499909],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方西",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.789354, 10.536065],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "五方头",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [111.578608, 16.416369],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "永乐群岛",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11560",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.349024, 16.967058],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "七连屿",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.784263, 15.521884],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "果淀暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.876853, 15.47884],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "排波暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.013195, 15.429595],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "波洑暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.225969, 15.42717],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "美溪暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.471467, 15.585399],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海鸠暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.419303, 15.595763],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安定连礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.691343, 15.681336],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "济猛暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.792388, 15.862053],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "武勇暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.65126, 15.892587],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南扉暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.581759, 15.843685],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "屏南暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.488289, 15.901857],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "漫步暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.430997, 15.843191],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "乐西暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.780693, 16.007042],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "石塘连礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.921327, 16.048992],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "隐矶滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.777582, 16.194196],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "比微暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.440117, 16.066523],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "中北暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.248264, 16.033821],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "美滨暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.114733, 15.975134],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "本固暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.982747, 15.878897],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "华夏暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.919275, 15.7703],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "控湃暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.904169, 15.670822],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "涛静暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.734009, 15.605269],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "排洪滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.9541652, 20.9405055],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南卫滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.595079, 4.973464],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "海宁礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.649367, 5.015392],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "琼台礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.514205, 5.077684],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南康暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.593448, 5.106287],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "隐波暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.929282, 5.022817],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "欢乐暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.536156, 5.658393],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "北安礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.560039, 5.890222],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "义净礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.522445, 5.978348],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "盟谊暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.545962, 5.786839],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "法显暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [112.352371, 5.627966],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "康西暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.261619, 6.331284],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南通礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [113.384528, 8.307278],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "鸟鱼锭石",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.933606, 9.449341],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "乙辛石",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.413845, 8.013587],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "都护暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.024581, 7.503753],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "保卫暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.676237, 7.584283],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "普宁暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.862597, 7.184463],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "碎浪暗沙",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11550",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.491055, 11.09699],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "勇士滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [117.311518, 11.086583],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "忠孝滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.838784, 11.895645],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "雄南礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.981778, 10.595396],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "东华礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.425933, 10.020866],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "康乐礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.45025, 8.673936],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "南华水道",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11100",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.300792, 11.051446],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "铁峙水道",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11100",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [116.286257, 10.785794],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "安塘滩",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [115.967624, 8.451216],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "指向礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    },
+    {
+      "geometry": {
+        "coordinates": [114.282811, 9.71929],
+        "type": "Point"
+      },
+      "properties": {
+        "tsmc": "赤瓜礁",
+        "minl": 10,
+        "maxl": 18,
+        "dmlb": "11500",
+        "type": 3,
+        "xzqh": "460300"
+      },
+      "type": "Feature"
+    }
+  ]
+}
