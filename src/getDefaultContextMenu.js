@@ -1,8 +1,8 @@
 import * as mars3d from "mars3d"
-// const Cesium = mars3d.Cesium
+const Cesium = mars3d.Cesium
 
 const { LngLatPoint, Icon, CRS } = mars3d
-const { alert = globalAlert, downloadFile, formatNum } = mars3d.Util
+const { alert = window.alert, downloadFile, formatNum } = mars3d.Util
 const { addPositionsHeight } = mars3d.PointUtil
 const { proj4Trans } = mars3d.PointTrans
 const { logInfo } = mars3d.Log
@@ -11,7 +11,7 @@ const { Bloom, Brightness, BlackAndWhite, NightVision, Outline, Rain, Snow, Fog 
 
 
 // 获取平台内置的右键菜单
-function getDefaultContextMenu(map) {
+export function getDefaultContextMenu(map) {
   const that = map.contextmenu
 
   const that_thing = map.thing

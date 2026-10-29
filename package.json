@@ -4,14 +4,19 @@
   "version": "0.0.1",
   "type": "module",
   "scripts": {
-    "dev": "vite",
-    "build": "vue-tsc -b && vite build",
+    "test": "node --test tests/*.test.mjs",
+    "dev": "node scripts/sync-workers.mjs && vite",
+    "build": "node scripts/sync-workers.mjs && vue-tsc -b && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
+    "@quasar/extras": "2.1.0",
+    "@turf/turf": "7.2.0",
+    "echarts": "6.1.0",
     "kdbush": "^4.1.0",
     "mars3d": "^3.11.8",
     "mars3d-cesium": "^1.145.0",
+    "quasar": "2.35.2",
     "quasar-mars-ui": "^0.0.4",
     "vue": "^3.5.44",
     "xgis-cesium-mars3d": "^0.0.5"

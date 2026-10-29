@@ -1,0 +1,35 @@
+html, body, #app { width: 100%; height: 100%; margin: 0; overflow: hidden; }
+body { font-family: 'Microsoft YaHei', sans-serif; background: #080c12; }
+button, input, select { font: inherit; }
+.map-shell { position: relative; height: 100%; width: 100%; }
+.mars3d-container { position: absolute; inset: 0; }
+.map-overlay { position: absolute; inset: 0; pointer-events: none; z-index: 10; }
+.map-overlay > * { pointer-events: auto; }
+.demo-menu, .map-toolbar { position: absolute; top: 10px; display: flex; gap: 8px; padding: 14px; border-radius: 3px; background: rgba(37, 42, 51, .96); box-shadow: 0 3px 12px #0005; }
+.demo-menu { left: 10px; }
+.map-toolbar { right: 10px; padding: 6px; gap: 0; }
+.map-toolbar .q-btn { min-height: 40px; min-width: 85px; }
+.map-toolbar .mars-icon { margin-right: 9px; }
+.tool-menu { background: #252a33; color: #eee; max-height: calc(100vh - 90px); }
+.tool-menu .q-item__section--avatar { min-width: 30px; }
+.panel-content { display: flex; flex-direction: column; gap: 14px; max-height: calc(100vh - 200px); overflow: auto; }
+.panel-content p { margin: 0; color: #c1c9d6; font-size: 13px; line-height: 1.6; }
+.actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.field { display: grid; grid-template-columns: 80px minmax(0, 1fr); align-items: center; gap: 8px; }
+.field input, .field select, .panel-input { width: 100%; min-width: 0; padding: 7px 8px; background: #18212e; color: #fff; border: 1px solid #536074; border-radius: 3px; }
+.field input[type='checkbox'] { width: auto; justify-self: start; }
+.layer-row { display: flex; align-items: center; gap: 8px; flex-wrap: wrap; border-bottom: 1px solid #ffffff1a; padding-bottom: 8px; }
+.layer-row label { flex: 1; min-width: 130px; }
+.layer-row input[type='range'] { width: 90px; }
+.panel-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.panel-table th, .panel-table td { padding: 7px; border: 1px solid #ffffff26; text-align: left; }
+.empty { color: #a6b2c5; padding: 10px 0; }
+.error-banner { position: absolute; top: 85px; left: 15px; right: 15px; padding: 12px; color: #fff; background: #872e35; z-index: 30; }
+.mars3d-locationbar { left: 0 !important; right: auto !important; max-width: 100%; overflow: auto; white-space: nowrap; background: #161b24ce !important; }
+.cesium-viewer-toolbar { bottom: 38px !important; }
+@media (max-width: 800px) {
+  .demo-menu { padding: 8px; gap: 4px; }
+  .map-toolbar { top: 72px; }
+  .demo-menu .mars-button { padding: 0 8px; }
+  .mars-dialog { max-width: calc(100vw - 24px); }
+}

@@ -1,21 +1,42 @@
 <template>
-  <div>
+  <div class="map-shell">
     <div id="mars3dContainer" class="mars3d-container"></div>
+    <MapWorkspace v-if="ready" :get-map="getMap" :external-layers="getExternalLayers" @context-menu="changeContextMenu" />
+    <div v-if="initializationError" class="error-banner" role="alert">{{ initializationError }}</div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { onMounted, ref } from 'vue';
+import { onMounted, onUnmounted, ref } from 'vue';
 import * as mars3d from "mars3d"
 // import * as Cesium  from "cesium";
 import * as Cesium   from "mars3d-cesium";
 import { XViewer, LabelGeojsonLayer,LabelMassiveLayer } from 'xgis-cesium-mars3d';
 import "mars3d/mars3d.css";
 import 'xgis-cesium-mars3d/dist/index.css'
-import './getDefaultContextMenu.js';
+import { getDefaultContextMenu } from './getDefaultContextMenu.js';
+import MapWorkspace from './components/MapWorkspace.vue';
+import { mapOptions, locationTemplate } from './map/options';
+import type { LayerEntry } from './map/tools';
 
 // 定义全局地图变量
-let map: mars3d.Map | null = null;
+let map: mars3d.Map;
+const ready = ref(false);
+const initializationError = ref('');
+const getMap = () => map;
+let externalLayers: Array<LabelGeojsonLayer | LabelMassiveLayer> = [];
+const getExternalLayers = (): LayerEntry[] => externalLayers.map(layer => ({
+  id: layer.attr.layerID, name: layer.attr.layerName, show: layer.show,
+  setShow: show => { layer.show = show; },
+  flyTo: () => map.flyHome(),
+}));
+function changeContextMenu(mode: 'default' | 'demo' | 'none') {
+  clearTimeout(contextMenuTimer);
+  if (mode === 'default') bindMapDefault();
+  else if (mode === 'demo') bindMapDemo();
+  else unBindMapDemo();
+}
+let contextMenuTimer: ReturnType<typeof setTimeout> | undefined;
 // function checkAllCesiumLimit() {
 //   const canvas = document.createElement("canvas");
 //   // 先判断WebGL2
@@ -67,16 +88,17 @@ function initCesiumViewer() {
     const viewer = new XViewer('mars3dContainer', {
       animation: false, //是否创建动画小器件，左下角仪表
       baseLayerPicker: false, //是否显示图层选择器
-      fullscreenButton: false, //是否显示全屏按钮
+      fullscreenButton: true, //是否显示全屏按钮
       geocoder: false, //是否显示geocoder小器件，右上角查询按钮
-      homeButton: false, //是否显示home按钮
+      homeButton: true, //是否显示home按钮
       infoBox: false, //是否显示信息框
-      sceneModePicker: false, //是否显示3D/2D选择器
+      sceneModePicker: true, //是否显示3D/2D选择器
       selectionIndicator: false, //是否显示选取指示器组件 鼠标绿色框
       timeline: false, // 是否显示时间轴
-      navigationHelpButton: false, // 是否显示右上角的帮助按钮
+      navigationHelpButton: true, // 是否显示右上角的帮助按钮
+      navigationInstructionsInitiallyVisible: false,
       vrButton: false, // 是否显示双屏
-      scene3DOnly: true, // 如果设置为true,则所有几何图形以3d模式绘制以节约gpu资源
+      scene3DOnly: false, // 允许迁移的二三维场景切换控件工作
       contextOptions: {
         // cesium状态下允许canvas转图片convertToImage
         webgl: {
@@ -105,6 +127,7 @@ function initCesiumViewer() {
     return viewer;
   }
   catch (error) {
+    initializationError.value = `地图初始化失败：${error instanceof Error ? error.message : String(error)}`;
     // Global.Message.err('Cesium Viewer初始化失败！');
     // Global.Logger().error('Cesium Viewer初始化失败', error);
   }
@@ -114,7 +137,7 @@ function initCesiumViewer() {
 let graphicLayer: any // 矢量图层
 let graphic: any// 矢量数据
 
-function rotatePoint_onChangeHandler(event) {
+function rotatePoint_onChangeHandler(event: any) {
   console.log("绕此处环绕飞行,变化了角度", event)
 }
 
@@ -130,10 +153,10 @@ function bindMapDefault() {
 
 // 在map地图上绑定右键菜单
 function bindMapDemo() {
-  window._test_show = function (e) {
+  const testShow = function (e: any) {
     return Cesium.defined(e.cartesian)
   }
-  window._test_callback = function (e) {
+  const testCallback = function (e: any) {
     const mpt = mars3d.LngLatPoint.fromCartesian(e.cartesian)
     console.log(mpt.toString(), "位置信息")
   }
@@ -144,13 +167,13 @@ function bindMapDemo() {
       icon: `<svg class="iconsvg" aria-hidden="true">
               <use xlink:href="#marsgis-qjsjdb"></use>
             </svg>`, // 支持iconfont的symbol方式图标（svg）
-      show: "_test_show",
-      callback: "_test_callback" // 也支持window方法的名称配置
+      show: testShow,
+      callback: testCallback // 也支持window方法的名称配置
     },
     {
       text: "查看当前视角",
       icon: "fa fa-camera-retro", // 支持 font-class 的字体方式图标
-      callback: (e) => {
+      callback: (_e: any) => {
         const mpt = JSON.stringify(map.getCameraView())
         console.log(mpt, "当前视角信息")
       }
@@ -161,7 +184,7 @@ function bindMapDemo() {
       show: function () {
         return !map.scene.globe.depthTestAgainstTerrain
       },
-      callback: (e) => {
+      callback: (_e: any) => {
         map.scene.globe.depthTestAgainstTerrain = true
       }
     },
@@ -171,7 +194,7 @@ function bindMapDemo() {
       show: function () {
         return map.scene.globe.depthTestAgainstTerrain
       },
-      callback: (e) => {
+      callback: (_e: any) => {
         map.scene.globe.depthTestAgainstTerrain = false
       }
     },
@@ -183,24 +206,24 @@ function bindMapDemo() {
         {
           text: "移动到此处",
           icon: "fa fa-send-o",
-          show: "flyToForContextmenuShow",
-          callback: "flyToForContextmenuClick" // 也支持“方法名称”方式(如config.json中配置时)
+          show: flyToForContextmenuShow,
+          callback: flyToForContextmenuClick // 也支持“方法名称”方式(如config.json中配置时)
         }
       ]
     }
   ]
   map.bindContextMenu(mapContextmenuItems)
 
-  setTimeout(() => {
+  contextMenuTimer = setTimeout(() => {
     map.openContextMenu(new mars3d.LngLatPoint(116.318747, 31.044486, 651.9))
   }, 5000)
 }
 
 // 演示右键菜单“方法名称”方式(如config.json中配置时)
-window.flyToForContextmenuShow = function (event) {
+function flyToForContextmenuShow (event: any) {
   return Cesium.defined(event.cartesian)
 }
-window.flyToForContextmenuClick = function (event) {
+function flyToForContextmenuClick (event: any) {
   const cameraDistance = Cesium.Cartesian3.distance(event.cartesian, map.camera.positionWC) * 0.1
   map.flyToPoint(event.cartesian, {
     radius: cameraDistance, // 距离目标点的距离
@@ -219,8 +242,8 @@ function bindLayerDemo() {
     {
       text: "删除对象",
       icon: "fa fa-trash-o",
-      callback: (e) => {
-        const graphic = e.graphic
+      callback: (_e: any) => {
+        const graphic = _e.graphic
         if (graphic) {
           graphicLayer.removeGraphic(graphic)
         }
@@ -229,8 +252,8 @@ function bindLayerDemo() {
     {
       text: "计算长度",
       icon: "fa fa-medium",
-      show: function (e) {
-        const graphic = e.graphic
+      show: function (_e: any) {
+        const graphic = _e.graphic
         return (
           graphic.type === "polyline" ||
           graphic.type === "curve" ||
@@ -239,8 +262,8 @@ function bindLayerDemo() {
           graphic.type === "wall"
         )
       },
-      callback: (e) => {
-        const graphic = e.graphic
+      callback: (_e: any) => {
+        const graphic = _e.graphic
         const strDis = mars3d.MeasureUtil.formatDistance(graphic.distance)
         console.log("该对象的长度为:" + strDis)
       }
@@ -248,12 +271,12 @@ function bindLayerDemo() {
     {
       text: "计算周长",
       icon: "fa fa-medium",
-      show: function (e) {
-        const graphic = e.graphic
+      show: function (_e: any) {
+        const graphic = _e.graphic
         return graphic.type === "circle" || graphic.type === "rectangle" || graphic.type === "polygon"
       },
-      callback: (e) => {
-        const graphic = e.graphic
+      callback: (_e: any) => {
+        const graphic = _e.graphic
         const strDis = mars3d.MeasureUtil.formatDistance(graphic.distance)
         console.log("该对象的周长为:" + strDis)
       }
@@ -261,8 +284,8 @@ function bindLayerDemo() {
     {
       text: "计算面积",
       icon: "fa fa-reorder",
-      show: function (e) {
-        const graphic = e.graphic
+      show: function (_e: any) {
+        const graphic = _e.graphic
         if (!graphic) {
           return false
         }
@@ -279,8 +302,8 @@ function bindLayerDemo() {
             graphic.positionsShow?.length > 2)
         )
       },
-      callback: (e) => {
-        const graphic = e.graphic
+      callback: (_e: any) => {
+        const graphic = _e.graphic
         const strArea = mars3d.MeasureUtil.formatArea(graphic.area)
         console.log("该对象的面积为:" + strArea)
       }
@@ -295,9 +318,10 @@ onMounted(() => {
   if (xviewer) {
     const viewer:any= xviewer as mars3d.Cesium.Viewer;
     // debugger;
-    map =new mars3d.Map(viewer);
+    map =new mars3d.Map(viewer, mapOptions);
+    map.addControl(new mars3d.control.LocationBar({ template: locationTemplate }));
     //默认单张图片，作为底图
-    xviewer.setBasicLayer('GD_IMG');
+    // 底图统一交给 Mars3D 管理，避免 XViewer 的影像遮盖切换和对比结果。
     // xviewer.Weather.rain.enable = true;
     // setTimeout(() => {
     //   xviewer.Weather.rain.destroy();
@@ -376,6 +400,7 @@ onMounted(() => {
        kind: 'geojson'
      }
      xviewer.addLayer(labelLayer);
+     externalLayers.push(labelLayer);
 
 
 
@@ -406,27 +431,28 @@ onMounted(() => {
           kind:'geojson'
         }
         xviewer.addLayer(labelLayer2,true);
+        externalLayers.push(labelLayer2);
 
 
     //下面为mars3d测试代码
 
-    // map.on(mars3d.EventType.click, function (event) {
+    // map.on(mars3d.EventType.click, function (event: any) {
     //   map.contextmenu._rightClickHandler(event)
     // })
 
-    map.on(mars3d.EventType.contextMenuOpen, function (event) {
+    map.on(mars3d.EventType.contextMenuOpen, function (_event: any) {
       console.log("打开了右键菜单")
     })
-    map.on(mars3d.EventType.contextMenuClose, function (event) {
+    map.on(mars3d.EventType.contextMenuClose, function (_event: any) {
       console.log("关闭了右键菜单")
     })
-    map.on(mars3d.EventType.contextMenuClick, function (event) {
+    map.on(mars3d.EventType.contextMenuClick, function (event: any) {
       console.log("单击了右键菜单", event)
 
       if (event.data.text === "绕此处环绕飞行") {
-        map.contextmenu.rotatePoint.on(mars3d.EventType.change, rotatePoint_onChangeHandler)
+        (map.contextmenu as typeof map.contextmenu & { rotatePoint: mars3d.thing.RotatePoint }).rotatePoint.on(mars3d.EventType.change, rotatePoint_onChangeHandler)
       } else if (event.data.text === "关闭环绕飞行") {
-        map.contextmenu.rotatePoint.off(mars3d.EventType.change, rotatePoint_onChangeHandler)
+        (map.contextmenu as typeof map.contextmenu & { rotatePoint: mars3d.thing.RotatePoint }).rotatePoint.off(mars3d.EventType.change, rotatePoint_onChangeHandler)
       }
     })
 
@@ -437,12 +463,12 @@ onMounted(() => {
     })
     map.addLayer(graphicLayer)
 
-    graphicLayer.on(mars3d.EventType.contextMenuOpen, function (event) {
-      event.stopPropagation()
+    graphicLayer.on(mars3d.EventType.contextMenuOpen, function (_event: any) {
+      _event.stopPropagation()
       console.log("打开了graphicLayer右键菜单")
     })
-    graphicLayer.on(mars3d.EventType.contextMenuClose, function (event) {
-      event.stopPropagation()
+    graphicLayer.on(mars3d.EventType.contextMenuClose, function (_event: any) {
+      _event.stopPropagation()
       console.log("关闭了graphicLayer右键菜单")
     })
     bindLayerDemo()
@@ -469,10 +495,18 @@ onMounted(() => {
       }
     })
     map.graphicLayer.addGraphic(graphic)
+    bindMapDefault();
+    ready.value = true;
 
   }
 
 })
+
+onUnmounted(() => {
+  clearTimeout(contextMenuTimer);
+  externalLayers = [];
+  if (map) map.destroy();
+});
 
 
 </script>

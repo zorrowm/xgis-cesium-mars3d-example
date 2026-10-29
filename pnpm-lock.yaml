@@ -8,6 +8,15 @@ importers:
 
   .:
     dependencies:
+      '@quasar/extras':
+        specifier: 2.1.0
+        version: 2.1.0
+      '@turf/turf':
+        specifier: 7.2.0
+        version: 7.2.0
+      echarts:
+        specifier: 6.1.0
+        version: 6.1.0
       kdbush:
         specifier: ^4.1.0
         version: 4.1.0
@@ -17,6 +26,9 @@ importers:
       mars3d-cesium:
         specifier: ^1.145.0
         version: 1.145.0
+      quasar:
+        specifier: 2.35.2
+        version: 2.35.2
       quasar-mars-ui:
         specifier: ^0.0.4
         version: 0.0.4(vue@3.5.44(typescript@6.0.3))
@@ -100,6 +112,9 @@ packages:
 
   '@petamoriken/float16@3.9.2':
     resolution: {integrity: sha512-VgffxawQde93xKxT3qap3OH+meZf7VaSB5Sqd4Rqc+FP5alWbpOyan/7tRbOAvynjpG3GpdtAuGU/NdhQpmrog==, tarball: https://registry.npmjs.org/@petamoriken/float16/-/float16-3.9.2.tgz}
+
+  '@quasar/extras@2.1.0':
+    resolution: {integrity: sha512-WCqHXr3loA9bP1DUuzmCwuNXnHa9GKosAtjwJnr1DpngO68a0JoiyVuoXzc760tCBArdFLD/YAUHvItPbk6V2Q==, tarball: https://registry.npmjs.org/@quasar/extras/-/extras-2.1.0.tgz}
 
   '@rolldown/binding-android-arm-eabi@1.2.15':
     resolution: {integrity: sha512-aLcgK9gIJ3YRvrrtfSBbRa27F5WrpiTaPulnFpsHPxpUHgFlSgnU4854MHwoRGEBhfRJDWCS2WQ7lIjskE9Olw==, tarball: https://registry.npmjs.org/@rolldown/binding-android-arm-eabi/-/binding-android-arm-eabi-1.2.15.tgz}
@@ -692,6 +707,9 @@ packages:
   earcut@3.0.1:
     resolution: {integrity: sha512-0l1/0gOjESMeQyYaK5IDiPNvFeu93Z/cO0TjZh9eZ1vyCtZnA7KMZ8rQggpsJHIbGSdrqYq9OhuveadOVHCshw==, tarball: https://registry.npmjs.org/earcut/-/earcut-3.0.1.tgz}
 
+  echarts@6.1.0:
+    resolution: {integrity: sha512-q0yaFPggC9FUdsWH4blavRWFmxdrIodbkoKNAjJudAI6CA9gNPxHtV2RcZNEepZVlk4yvBYkOkbk6HIVpIyHZA==, tarball: https://registry.npmjs.org/echarts/-/echarts-6.1.0.tgz}
+
   entities@4.5.0:
     resolution: {integrity: sha512-V0hjH4dGPh9Ao5p0MoRY6BVqtwCjhz6vI5LT8AJ55H+4g9/4vbHx1I54fS0XuclLhDHArPQCiMjDxjaL8fPxhw==, tarball: https://registry.npmjs.org/entities/-/entities-4.5.0.tgz}
     engines: {node: '>=0.12'}
@@ -1035,6 +1053,9 @@ packages:
     resolution: {integrity: sha512-/VS9j/ffKr2XAOjlZ9CgyyeLmgJ9dMwq6Y0YEON8O7p/tGGk+dCWnrE03zEdu7i4L7YsFZLEPZPzCvcB7lEEXw==, tarball: https://registry.npmjs.org/topojson-server/-/topojson-server-3.0.1.tgz}
     hasBin: true
 
+  tslib@2.3.0:
+    resolution: {integrity: sha512-N82ooyxVNm6h1riLCoyS9e3fuJ3AMG2zIZs2Gd1ATcSFjSA23Q0fzjjZeh0jbJvWVDZ0cJT8yaNNaaXHzueNjg==, tarball: https://registry.npmjs.org/tslib/-/tslib-2.3.0.tgz}
+
   tslib@2.8.1:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==, tarball: https://registry.npmjs.org/tslib/-/tslib-2.8.1.tgz}
 
@@ -1151,6 +1172,9 @@ packages:
   xml-utils@1.10.2:
     resolution: {integrity: sha512-RqM+2o1RYs6T8+3DzDSoTRAUfrvaejbVHcp3+thnAtDKo8LskR+HomLajEy5UjTz24rpka7AxVBRR3g2wTUkJA==, tarball: https://registry.npmjs.org/xml-utils/-/xml-utils-1.10.2.tgz}
 
+  zrender@6.1.0:
+    resolution: {integrity: sha512-oEGMDB6pOP2S6OwRR4PdVv610zrjnA3Bh+JnSG12fYJlBKjtNAoEb5fSUoCOOINlH96I2fU38/A2UpRKs67xYQ==, tarball: https://registry.npmjs.org/zrender/-/zrender-6.1.0.tgz}
+
   zstddec@0.1.0:
     resolution: {integrity: sha512-w2NTI8+3l3eeltKAdK8QpiLo/flRAr2p8AGeakfMZOXBxOg9HIu4LVDxBi81sYgVhFhdJjv1OrB5ssI8uFPoLg==, tarball: https://registry.npmjs.org/zstddec/-/zstddec-0.1.0.tgz}
 
@@ -1197,6 +1221,8 @@ snapshots:
   '@oxc-project/types@0.155.0': {}
 
   '@petamoriken/float16@3.9.2': {}
+
+  '@quasar/extras@2.1.0': {}
 
   '@rolldown/binding-android-arm-eabi@1.2.15':
     optional: true
@@ -2530,6 +2556,11 @@ snapshots:
 
   earcut@3.0.1: {}
 
+  echarts@6.1.0:
+    dependencies:
+      tslib: 2.3.0
+      zrender: 6.1.0
+
   entities@4.5.0: {}
 
   entities@7.0.1: {}
@@ -2838,6 +2869,8 @@ snapshots:
     dependencies:
       commander: 2.20.3
 
+  tslib@2.3.0: {}
+
   tslib@2.8.1: {}
 
   typescript@6.0.3: {}
@@ -2926,5 +2959,9 @@ snapshots:
       - vue
 
   xml-utils@1.10.2: {}
+
+  zrender@6.1.0:
+    dependencies:
+      tslib: 2.3.0
 
   zstddec@0.1.0: {}
